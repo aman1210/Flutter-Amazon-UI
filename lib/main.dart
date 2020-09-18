@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         primaryIconTheme: IconThemeData(color: Colors.black),
+        fontFamily: "Roboto",
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomePage(),
